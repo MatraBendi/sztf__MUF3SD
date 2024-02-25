@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonacci", "fibonacci\fibonacci.csproj", "{5609F93D-D9A3-4D41-80C4-ED637F898AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pascal", "pascal\pascal.csproj", "{3B21A388-E782-4391-8007-400FA66FF4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piramis", "piramis\piramis.csproj", "{C87C5F30-FC1C-4C17-9092-781FBE213306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5609F93D-D9A3-4D41-80C4-ED637F898AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5609F93D-D9A3-4D41-80C4-ED637F898AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5609F93D-D9A3-4D41-80C4-ED637F898AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5609F93D-D9A3-4D41-80C4-ED637F898AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B21A388-E782-4391-8007-400FA66FF4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B21A388-E782-4391-8007-400FA66FF4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B21A388-E782-4391-8007-400FA66FF4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B21A388-E782-4391-8007-400FA66FF4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87C5F30-FC1C-4C17-9092-781FBE213306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87C5F30-FC1C-4C17-9092-781FBE213306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87C5F30-FC1C-4C17-9092-781FBE213306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87C5F30-FC1C-4C17-9092-781FBE213306}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79857833-128A-42DC-98DF-AE4F70A4B9D2}
+	EndGlobalSection
+EndGlobal
