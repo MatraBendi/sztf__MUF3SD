@@ -9,20 +9,19 @@ namespace gyakorlas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            for (int j = 1; j < 11; j++)
-            {
-                for (int i = 1; i < 11; i++)
+            for (int i = 1; i <= 10; i++)
+            { 
+                for (int j = 1; j <= 10; j++)
                 {
-                gyak b = new gyak();
-                b.Width = 100;
-                b.Height = 50;
+                    gyak b = new gyak();
+                    b.Width = 100;
+                    b.Height = 50;
 
-                b.Left = ClientRectangle.Width /2 - 50;
-                b.Top = ClientRectangle.Height /2 - 25;
+                    b.Left = i * 110;
+                    b.Top = j * 55;
 
-                b.Text = (i*j).ToString();
-                Controls.Add(b);
+                    b.Text = (i*j).ToString();
+                    Controls.Add(b);
                 }
             }
         }
