@@ -6,14 +6,14 @@ namespace fibonacci
         {
 
             InitializeComponent();
-            
-                List<Elem>elemek = new List<Elem>();
-                for (int i = 0; i <= 10; i++)
-                {
+
+            List<Elem> elemek = new List<Elem>();
+            for (int i = 0; i <= 10; i++)
+            {
                 for (int j = 0; j <= 10; j++)
                 {
-                   
-                    Elem e = new Elem(i,i*j); 
+
+                    Elem e = new Elem(i, i * j);
                     elemek.Add(e);
                     dataGridView1.DataSource = elemek;
 
@@ -25,7 +25,7 @@ namespace fibonacci
                     //Controls.Add(b);
                 }
             }
-                
+
 
 
         }
@@ -33,13 +33,18 @@ namespace fibonacci
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            
+
         }
         int Fibonacci(int n)
         {
             if (n == 0) return 0;
             if (n == 1) return 1;
             return Fibonacci(n - 1) + Fibonacci(n - 2);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
