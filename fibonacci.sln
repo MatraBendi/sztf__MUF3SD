@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "piramis", "piramis\piramis.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas", "gyakorlas\gyakorlas.csproj", "{A9EE1F26-240D-401D-900F-BDD780A914AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szamologep", "szamologep\szamologep.csproj", "{98CA629C-6D29-487E-B63A-19324D3618A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A9EE1F26-240D-401D-900F-BDD780A914AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9EE1F26-240D-401D-900F-BDD780A914AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9EE1F26-240D-401D-900F-BDD780A914AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CA629C-6D29-487E-B63A-19324D3618A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CA629C-6D29-487E-B63A-19324D3618A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CA629C-6D29-487E-B63A-19324D3618A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CA629C-6D29-487E-B63A-19324D3618A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
